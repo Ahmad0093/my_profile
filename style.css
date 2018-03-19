@@ -1,0 +1,744 @@
+
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+
+
+body {
+
+font-family:'Courgette', cursive;
+
+
+}
+
+.mydiv {
+
+
+width: auto;
+
+text-transform: capitalize;
+
+
+
+}
+
+.tooop{
+
+background-image: url(https://image.ibb.co/bJM5Xn/EM.png);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: top center;
+height: 1200px;
+background-size: cover;
+
+
+}
+
+
+.toop{
+
+
+height:auto;
+width:  auto;
+font-size:  20px;
+text-align: center;
+padding: 0px;
+
+
+
+
+}
+
+.top {
+
+width: auto;
+margin: 0px;
+padding: 0px;
+
+
+}
+
+
+.middle {       
+height: auto;
+width:  auto;
+
+
+}
+
+h1  {
+
+font-size: 30px;
+
+font-family:'Courgette', cursive;
+
+text-align: center;
+
+letter-spacing: 20px;
+
+margin: 50px;
+
+text-shadow: 2px 2px 20px;
+
+}
+
+
+
+h2  {
+
+font-size: 35px;
+letter-spacing: 20px;
+text-transform: uppercase;
+text-transform: capitalize;
+color: black;
+text-shadow: 1px 1px 20px ;
+
+
+
+
+}
+
+
+
+.hope {
+height: 1000px;
+background-color: red;
+
+}
+
+nav {
+width: 500px;
+height: auto;
+padding: 30px;
+margin-bottom: 20px;
+
+
+
+
+}
+
+
+
+ul li {
+line-height: 2.8;
+list-style: none;
+display: inline-block;
+
+
+
+}
+
+
+ul li a {
+
+text-decoration: none;  
+font-family:'Courgette', cursive;
+font-size: 25px;
+text-transform: uppercase;
+color: black;
+padding: 15px;
+position: relative;
+
+}
+
+ul li a span:first-child:before
+
+{
+
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+border-top: 2px solid red;
+border-left: 2px solid red;
+width: 16px;
+height: 8px;
+background: transparent;
+transition: 0.5s;
+opacity: 0;
+}
+
+
+ul li a span:first-child:after
+
+{
+
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+width: 16px;
+height: 8px;
+background: transparent;
+border-top: 2px solid red;
+border-right: 2px solid red;
+transition:  0.5s;
+opacity: 0;
+}
+
+
+ul li a span:last-child:before
+{
+
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 16px;
+height: 8px;
+background: transparent;
+border-bottom: 2px solid red;
+border-left: 2px solid red;
+transition:  0.5s;
+opacity: 0;
+}
+
+
+
+ul li a span:last-child:after
+{
+
+content: '';
+position: absolute;
+bottom: 0;
+right: 0;
+width: 16px;
+height: 8px;
+background: transparent;
+border-bottom: 2px solid red;
+border-right: 2px solid red;
+transition:  0.5s;
+opacity: 0;
+}
+
+
+ul li a:hover span:first-child:before
+{
+top: -5px;
+left: -5px;
+opacity: 1; 
+}
+
+ul li a:hover span:first-child:after
+{
+top: -10px;
+right: -10px;
+opacity: 1; 
+}
+
+
+
+ul li a:hover span:last-child:before
+{
+bottom: -10px;
+left: -10px;
+opacity: 1; 
+}
+
+ul li a:hover span:last-child:after
+{
+bottom: -10px;
+right : -10px;
+opacity: 1; 
+
+}
+
+
+.bottom {
+height: auto;
+width: auto;
+
+
+}
+
+.icons {
+
+position: relative;
+margin:auto;
+display: inline-block;
+
+}
+
+.icons li a {
+
+position: relative;
+letter-spacing: 10px;
+font-size: 35px;
+padding: 10px;
+
+
+}
+
+.icons li a:hover {
+
+color: red;
+
+
+}
+
+footer {
+
+text-align:center;
+font-size: 18px;
+
+}
+
+.round {
+
+border-radius: 25%;
+margin-top: 5px;
+display: inline-block;
+border: 2px solid black;
+box-shadow: 4px 4px 30px;
+
+
+
+}
+
+.round a {
+
+padding: 10px;
+
+
+}
+
+.p1 {
+
+text-align: center;
+padding: 50px;
+line-height:50px;
+font-size: 20px;
+
+}
+
+.p2 {
+
+text-align: center;
+line-height:50px;
+font-size: 20px;
+
+}
+
+.hoo li a {
+
+text-decoration: none;
+font-size: 25px;
+color: black;
+letter-spacing: 10px;
+
+}
+
+
+.hoo li a:hover {
+
+color: red;
+
+}
+
+.bgr {
+
+background-image: url("https://image.ibb.co/cNPg57/regal.png" );
+
+
+}
+
+
+.bg {
+
+background-image: url("https://image.ibb.co/cNPg57/regal.png" );
+
+}
+
+.bground {
+
+background-image: url("https://image.ibb.co/cNPg57/regal.png" );
+
+
+
+}
+
+
+
+.h2 :hover {
+
+
+color: red;
+
+}
+
+
+.table1 {
+
+
+
+font-size: 25px;
+padding: 50px;
+
+
+
+}
+
+.table1 th {
+
+
+color: red;
+text-align: center;
+border: 2px solid black;
+border-radius: 10px;
+
+}
+
+
+
+.table1 td {
+
+
+text-align: center;
+border: 2px solid black;
+border-radius: 10px;
+background-color: pink;
+
+}
+
+
+.myhobbies ol {
+
+    margin: 30px;
+    margin-bottom: 60px;
+    
+    list-style-image:url(https://image.ibb.co/iPcuKc/trekking.png) 20px;;
+    
+}
+
+
+
+.myhobbies ol li  {
+
+text-align: center;
+font-weight: bold;
+list-style: none;
+width: 150px;
+padding: 5px;
+}
+
+.myhobbies ol li:hover  {
+ 
+border-bottom : 2px solid black;
+   color: red;
+    
+    opacity:0.7;
+
+   text-shadow: 2px 2px 20px;
+
+
+}
+
+
+
+
+
+.BY {
+
+font-size: 20px;
+color: black;
+}
+
+
+.BY a {
+
+color: black;
+text-decoration: none;
+text-shadow: 2px 2px 15px;
+
+}
+
+.BY a:hover {
+
+color: red;
+text-shadow: 2px 2px 20px;
+
+}
+
+.Mch a {
+color: blue;
+text-decoration: none;
+
+}
+.Mch a:hover {
+
+color: red;
+text-decoration: underline;
+font-size: 25px;
+text-shadow: 2px 2px 20px;
+
+}
+
+.Mch a:active {
+
+color: green;
+text-decoration: none;
+
+}
+
+
+.osh a {
+color: blue;
+text-decoration: none;
+font-size: 25px;
+
+
+}
+.osh a:hover {
+
+color: red;
+text-decoration: underline;
+font-size: 25px;
+text-shadow: 2px 2px 20px;
+}
+
+.osh a:active {
+
+
+text-decoration: none;
+color: green;
+
+}
+
+
+.hth a {
+
+text-decoration: none;
+color: blue;
+
+}
+
+
+.hth a:hover {
+
+color: red;
+text-decoration: underline;
+font-size: 25px;
+text-shadow: 2px 2px 20px;
+
+}
+
+
+
+.hth a:active {
+    
+    color: green;
+    text-decoration: none;
+    
+    }
+    
+    
+
+
+.pp22 a {
+
+color: blue;    
+text-decoration: none;
+
+
+}
+
+
+
+
+.teachers {
+
+
+background-image: url(https://image.ibb.co/mBsjhn/teachers.jpg);
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+border: 2px solid black;
+background-size: cover;
+height: 800px;
+width: auto;
+
+margin: 30px;
+border-radius: 30px;
+
+
+
+
+}
+
+
+.pp22 a:hover {
+
+color: red;
+text-shadow: 2px 2px 20px;
+
+}
+
+
+.cap {
+
+color: black;
+letter-spacing: 25px;
+font-weight: bold;
+font-size: 25px;
+font-family:'Courgette', cursive;
+text-transform: capitalize;
+text-shadow: 2px 2px 20px;
+
+}
+
+
+
+
+.te {
+
+font-size: 18px;
+font-family:'Itim', cursive;
+padding: 10px;
+border: 2px solid black;
+border-radius: 10px;
+
+}
+
+
+td a {
+
+color: black;
+text-decoration: none;
+
+}
+td a:hover {
+
+color: red;
+
+
+}
+th a {
+
+color: black;
+text-decoration: none;
+
+}
+th a:hover {
+
+color: red;
+font-size: 40px;  
+
+}
+
+
+
+.fs2 {
+
+border: 2px solid black;
+border-radius: 10px;
+text-transform: capitalize;
+
+padding-bottom: 15px;
+}   
+
+
+
+
+.tex {
+
+letter-spacing: 20px;
+
+}
+
+.myiframe {
+
+border: 2px solid black;
+border-radius: 10px;
+border-top: 4px solid yellow;
+border-right: 4px inset yellow;
+border-left: 4px outset red;
+
+
+}
+
+
+.ppp {
+
+
+background-image: url(https://image.ibb.co/bs6zyS/me1.jpg);
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+height: 600px;
+width:  auto;   
+margin: 10px;
+
+
+}
+
+
+.leave {
+
+word-spacing: 10px;
+
+}
+
+.ar {
+
+font-size: 30px;
+
+
+}
+
+.ar a {
+
+color: red;
+text-decoration: none;
+
+}
+
+.ar a:hover {
+
+color: black;
+font-size: 40px;
+text-shadow: 2px 2px 20px;
+}
+
+
+.AH a {
+
+color: red; 
+
+}
+
+.AH a:hover {
+
+color: black;
+font-size: 30px;
+
+}
+
+lable {
+padding: 10px;
+
+}
+
+input {
+
+    padding: 8px;
+  
+}
+
+.form input:hover {
+
+    box-shadow: 3px 3px 15px;
+
+}
+
+
+.footerimg {
+
+padding-top: 20px;
+   
+
+}
+
